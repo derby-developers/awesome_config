@@ -18,6 +18,6 @@ class ConfigStore
   private
 
   def initialize
-    self.store = {}.with_indifferent_access
+    self.store = {}
   end
 end
